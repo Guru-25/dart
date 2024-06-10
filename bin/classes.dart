@@ -1,5 +1,5 @@
 void main() {
-  Basic thing = new Basic(55);
+  Basic thing = Basic(55);
   thing.id;
   thing.doStuff();
 

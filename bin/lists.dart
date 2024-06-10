@@ -19,7 +19,9 @@ void main() {
     print(n);
   }
 
-  list.forEach((n) => print(n));
+  for (var n in list) {
+    print(n);
+  }
 
   var doubled = list.map((n) => n * 2);
   doubled.forEach(print);
